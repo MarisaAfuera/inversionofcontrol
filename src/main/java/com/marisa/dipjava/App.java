@@ -7,7 +7,7 @@ package com.marisa.dipjava;
 
 /**
  *
- * @author Marisa
+ * @author Marisa afuera
  */
 public class App {
 
@@ -16,7 +16,6 @@ public class App {
      */
     public static void main(String[] args) {
        System.out.println("hola");
-    }
-    
+    }    
     
 }

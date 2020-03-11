@@ -7,7 +7,7 @@ package com.marisa.dipjava;
 
 /**
  *
- * @author Marisa afuera
+ * @author Marisa 
  */
 public class App {
 

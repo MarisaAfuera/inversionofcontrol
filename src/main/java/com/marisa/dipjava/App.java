@@ -1,21 +1,27 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Cualquier tipo que necesita crear Matches de distintos Sports
  */
 package com.marisa.dipjava;
 
+import java.util.List;
+import java.util.ArrayList;
 /**
  *
  * @author Marisa 
  */
 public class App {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-       System.out.println("hola");
-    }    
-    
+
+     public static void main(String[] args) {
+
+       Football football = new Football();
+       Basketball basketball = new Basketball();
+       List sports = new ArrayList();
+       sports.add(football);
+       sports.add(basketball);
+       Match m = new Match(sports);
+       m.implement();
+
+    }   
+
 }
